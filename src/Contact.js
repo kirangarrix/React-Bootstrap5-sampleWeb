@@ -1,6 +1,20 @@
 import React from "react";
-
+import { useState } from "react";
 const Contact = () => {
+  
+  const [userData,setUserData]=useState({
+    firstName:"",
+    lastName:"",
+    phone:"",
+    email:"",
+    address:"",
+    message:""
+  });
+
+  const postUserData=()=>{
+
+  }
+
   return (
     <>
       <section className="contactus-section">
@@ -28,20 +42,26 @@ const Contact = () => {
                 {/* right side contact */}
 
                 <div className="contact-rightside col-12 col-lg-7">
-                  <form action="">
+                  <form action="POST">
                     <div className="row">
                       <div className="col-12 col-lg-6 contact-input-feild">
                         <input
                           type="text"
+                          name="firstName"
                           className="form-control"
                           placeholder="First Name"
+                          value={userData.firstName}
+                          onChange={postUserData}
                         />
                       </div>
                       <div className="col-12 col-lg-6 contact-input-feild">
                         <input
                           type="text"
+                          name="lastName"
                           className="form-control"
                           placeholder="Last Name"
+                          value={userData.lastName}
+                          onChange={postUserData}
                         />
                       </div>
                     </div>
@@ -49,15 +69,21 @@ const Contact = () => {
                       <div className="col-12 col-lg-6 contact-input-feild">
                         <input
                           type="text"
+                          name="phone"
                           className="form-control"
                           placeholder="Phone"
+                          value={userData.phone}
+                          onChange={postUserData}
                         />
                       </div>
                       <div className="col-12 col-lg-6 contact-input-feild">
                         <input
                           type="text"
+                          name="email"
                           className="form-control"
                           placeholder="Email"
+                          value={userData.email}
+                          onChange={postUserData}
                         />
                       </div>
                     </div>
@@ -65,8 +91,11 @@ const Contact = () => {
                       <div className="col-12 contact-input-feild">
                         <input
                           type="text"
+                          name="addess"
                           className="form-control"
                           placeholder="Add address"
+                          value={userData.address}
+                          onChange={postUserData}
                         />
                       </div>
                     </div>
@@ -74,8 +103,11 @@ const Contact = () => {
                       <div className="col-12 ">
                         <input
                           type="text"
+                          name="message"
                           className="form-control"
                           placeholder="Enter your message"
+                          value={userData.message}
+                          onChange={postUserData}
                         />
                       </div>
                     </div>

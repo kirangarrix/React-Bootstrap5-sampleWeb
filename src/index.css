@@ -453,6 +453,28 @@ footer .fontawesome-style:hover{
 
 /* /footer Section */
 
+
+/* Error page */
+
+#notfound{
+  background-color: #dbddd3;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound{
+  text-align: center;
+}
+
+.notfound-404 h1{
+  font-weight: bolder;
+  font-size: 8rem;
+}
+
+/* /Error page */
+
 /* responsive */
 @media (min-width:1500px){
   .container,

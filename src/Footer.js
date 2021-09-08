@@ -12,16 +12,16 @@ const Footer = () => {
                                     <h3>Company</h3>
                                     <ul>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -29,16 +29,16 @@ const Footer = () => {
                                     <h3>Support</h3>
                                     <ul>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -46,16 +46,16 @@ const Footer = () => {
                                     <h3>Services</h3>
                                     <ul>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
                                         </li>
                                     </ul>
                                 </div>
